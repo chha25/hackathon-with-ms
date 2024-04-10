@@ -1,0 +1,20 @@
+###
+GET http://localhost:8080/books
+
+<> 2024-04-10T103149.200.json
+<> 2024-04-10T103012.200.json
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "Hackday",
+  "iban": "12345"
+}
+
+<> 2024-04-10T103144.200.json
+<> 2024-04-10T103140.200.json
+
+###
+GET http://localhost:8080/books/3471b398-20a6-4680-9911-a0b0c905cedf
