@@ -1,11 +1,11 @@
 ###
-GET http://localhost:8080/books
+GET http://{{server}}/books
 
 <> 2024-04-10T103149.200.json
 <> 2024-04-10T103012.200.json
 
 ###
-POST http://localhost:8080/books
+POST http://{{server}}/books
 Content-Type: application/json
 
 {
@@ -17,4 +17,4 @@ Content-Type: application/json
 <> 2024-04-10T103140.200.json
 
 ###
-GET http://localhost:8080/books/3471b398-20a6-4680-9911-a0b0c905cedf
+GET http://{{server}}/books/3471b398-20a6-4680-9911-a0b0c905cedf
